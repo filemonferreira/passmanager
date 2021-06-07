@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "passmanager",
+    "slug": "passmanager",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android" 
+    ],
+    "androidStatusBar": {
+      "backgroundColor": "#4E3975",
+      "translucent": false
+    },
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4E3975"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "br.com.passmanager.app",
+      "supportsTablet": true,
+      "config": {
+        
+      }
+    },
+    "android": {
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE", 
+        "READ_EXTERNAL_STORAGE",
+        "READ_INTERNAL_STORAGE",
+        "INTERNET"
+        ],
+        "versionCode": 5,
+      "config": {
+        
+      },
+      "package": "br.com.passmanager.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4E3975"
+        }
+        
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+
+
